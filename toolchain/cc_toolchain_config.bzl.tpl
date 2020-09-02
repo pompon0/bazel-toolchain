@@ -158,6 +158,9 @@ def _impl(ctx):
             # To support libunwind.
             "-lpthread",
             "-ldl",
+            "-lc",
+            "-lm",
+            "-lgcc",
             # Other linker flags.
             "-Wl,--build-id=md5",
             "-Wl,--hash-style=gnu",
