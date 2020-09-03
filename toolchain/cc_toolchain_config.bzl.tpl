@@ -267,7 +267,7 @@ def _impl(ctx):
                     flag_group(
                         flags = [
                             "-g0",
-                            "-O2",
+                            "-O3",
                             "-D_FORTIFY_SOURCE=1",
                             "-DNDEBUG",
                             "-ffunction-sections",
